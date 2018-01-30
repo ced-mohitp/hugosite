@@ -2,180 +2,261 @@
 <html lang="en-us">
 
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="referrer" content="no-referrer">
-<meta name="description" content="Website Description">
+    <meta name="generator" content="Hugo 0.34" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blogs | Universal</title>
 
-<base href="/">
-<title>
+     
+      
+    
+    
+    
+      <meta name="robots" content="noindex">
+    
+    
+    
 
+  <meta name="author" content="DevCows">
 
-     Blogs 
-
-</title>
-<link rel="canonical" href="/blog/">
-
-
-
-
-
-
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+ 
+    <meta property="og:title" content="Blogs" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/blog/" />
 
 
 
-<script
-src="https://code.jquery.com/jquery-3.2.1.min.js"
-integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-crossorigin="anonymous"></script>
-
-
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans">
+<meta property="og:updated_time" content="2017-11-13T11:58:39-05:00"/>
 
 
 
-    <link rel="stylesheet" href="css/light-style.css">
+
+
+
+
+
+
+ 
     
 
 
 
-
-<link rel="shortcut icon"
-
-    href="img/fav.ico"
-
->
-
-
-
-
+ 
+    
+     
+     
+    
+    <link href="/blog/index.xml" rel="alternate" type="application/rss+xml" title="Universal" /> 
+    
+    <link rel="canonical" href="/blog/">   <link rel="shortcut icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABwlBMVEUAAAA/3MUK07UJ0rRk6NkC0rMAw5sAx6Ic1rs/3MYAlU0E0rQAhjMAyKIAiTkM07UJ07UAhC8m2L4o2L5O4Msn2L4AzKoAzq0128Mo2b8F0rQE0rMu2cAt2cAA0bI228MA0LAAy6kr2b8Q1LcF0rMH0rUAxp4t2b8c1ros2b8P1LcAzKsAzq4528Q02sIM07YAfyg93cUD0rMA0LEA0bFK4c0M1LcL07Uv2sEAzawY1rlJ4c0w2sEAzKkY1rqr+PQN07Yj170G0rQI07UF0bMt2cAF0rMC0bIL07UF0bMs2cAF0rMA0bIC0bIL07UF0rMA0bIA0bIA0bIO1LYr2b8N07Yp2L4F0rMF0rQJ07UA0bIC0bMA0bIH0rQK07UD0bMA0LAF0rMAyqYE0rMA0bIS1Lg228ID0bMM07YS1LcI07QL07UJ07UC0bMM07YG0rMS1Lc328IR1LcC0bIK07UM07Yo2L4P1LcL07UD0rMD0rMD0rMB0bIH0rQ23MMQ1LcD0rMN1LYB0LAJ0rQ33MMG0bMP1bgD0rMN07YH0rQH0rQ33MQF0rMD0rMN1LYo2L4F0rQG0rSA6tsA0bIB0bL////yxqscAAAAk3RSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgnDXAUItvZKBAi6+vpMuf3++wEIAQcEBFn5AgR9UwMEoQLD/AEH4AIdAzha+UMEAQcc9AM4CAFSA9IC+4AEAc8yAwIEBAHOMQOBBLfLMAnFlAJNsa0LAAAAAWJLR0SVCGB6gwAAAAd0SU1FB+EBBBI4BduZ4woAAAF5SURBVDjLY2CAAUYmZgcWRydnVhc2dg4GTMAJlOdydZvs7sHtiU0FSJ7Hy3uyz2RfP24XNl4OLPJ8Xv5A+YBAsAo0M2DyQZMnY1fBL+AgCJXHrkIoWDgEJo9NhUioaBhCHqoiXExcAqZAMkIqckrU5MkoKqSjZeAmyMbIxSIZAFIRMCVOOl4epkAmQSERrwKOJMXkySl4rEhVSkufHDAZtyMzlDPdJweiyiN7UyRLIHsKQj5wMnowSIar5ExJQcjn5qnmqyFHlzqKL7EoQPMlphUaaL7EcGSBZiGKLzFUZGgVFSP5ElNFCVPpFORwhAeVto4uWEGwUJk3alSAVXhIR+tB7ShHTi5QkOIzpUKqEmKCPpODgReaipSUyVWl0tW6GEkWGhRBk2tq6wzrsSVqqPaGRqOmZmMTXWwqwNpbTFvbzMwtsGUMoPb2DqOmTksxK2xZLyhgck1XtzVIuw22zNszeXJvH0i7rR1G9gVlf/v+CRMnWaPYDgA74gwO0j2znAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNy0wMS0wNFQxODo1NjowNSswMTowME2yC4wAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTctMDEtMDRUMTg6NTY6MDUrMDE6MDA877MwAAAAV3pUWHRSYXcgcHJvZmlsZSB0eXBlIGlwdGMAAHic4/IMCHFWKCjKT8vMSeVSAAMjCy5jCxMjE0uTFAMTIESANMNkAyOzVCDL2NTIxMzEHMQHy4BIoEouAOoXEXTyQjWVAAAAAElFTkSuQmCC">
 
 
-  <link href="/blog/index.xml" rel="alternate" type="application/rss+xml" title="Introduction" />
-
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="/css/bulma.css"> 
+    <link rel="stylesheet" href="/css/landing.css">   
+    
+    
 </head>
+
+
 <body>
+    <header> <nav class="nav has-shadow">
+<div class="nav-left">
+    <a class="nav-item" href="/">
+        <img src="/img/bulma.png" alt="Bulma logo">
+    </a>
+</div>
 
-<div class="section" id="top">
+<div class="nav-center">
+    
+    
+</div>
 
-    <div class="container hero  fade-in one ">
-    <h1 class="bold-title is-1">Blog</h1>
-    </div>
 
-    
-    <div class="section no-padding  fade-in two ">
 
-    <div class="container">
-    <hr>
-<nav class="nav nav-center">
-    <span id="nav-toggle" class="nav-toggle"  onclick="document.getElementById('nav-menu').classList.toggle('is-active');">
-      <span></span>
-      <span></span>
-      <span></span>
-    </span>
-    <div id="nav-menu" class="nav-left nav-menu">
-      <span class="nav-item">
-        <a href="/">Main</a>
-      </span>
-      <span class="nav-item">
-        <a href="/#about">About</a> 
-      </span>
-    
-      <span class="nav-item">
-        <a href="/#projects">Projects</a> 
-      </span>
-    
-      <span class="nav-item">
-        <a href="/#contact">Contact</a>
-      </span>
-    
-      <span class="nav-item">
-        <a href="/index.xml"><i class="fa fa-rss"></i></a>
-      </span>
-    
-    </div>
-</nav>
-<hr>
-    </div>
-       
-    <div class="container">
+<span class="nav-toggle">
+        <span></span>
+<span></span>
+<span></span>
+</span>
 
+
+
+<div class="nav-right nav-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+        
+        
+        <a itemprop="url" class="nav-item is-tab " href="/"><span itemprop="name">Home</span></a>
+        
+        <a itemprop="url" class="nav-item is-tab  is-active" href="/blog/"><span itemprop="name">Blog</span></a>
+        
+        <a itemprop="url" class="nav-item is-tab " href="/faq/"><span itemprop="name">FAQ</span></a>
+        
+        <a itemprop="url" class="nav-item is-tab " href="/contact/"><span itemprop="name">Contact</span></a>
+        
+</div>
+</nav> </header>
+    <main>
+
+<div class="columns is-fullheight">
+    <div class="column">
+        <section class="hero is-default is-bold">
+            <div class="hero-body">
+                <div class="container">
+                     <div class="column is-full-desktop" itemscope itemtype="http://schema.org/CreativeWork">
+    <h1 class="blog-timestamp">
+        
+    </h1>
+    <h1 class="title">
+        <a href="/blog/2017/11/13/hipster-ipsum/" itemprop="headline">Hipster Ipsum</a>
+    </h1>
     
-    <h2 class="title is-2 top-pad">Latest Post</h2>
-         
-        <div class="summary">Nov 13, 2017
-            <h3 class="title is-3 strong-post-title"><a href="/blog/hipster-ipsum/">Hipster Ipsum</a></h3>
-                <div class="markdown">
-                Occupy mlkshk kale chips woke, listicle locavore next level fingerstache glossier aesthetic man braid before they sold out kitsch prism. Cred copper mug freegan, flannel YOLO single-origin coffee skateboard artisan four loko church-key man bun. Synth literally gastropub, kombucha chillwave helvetica offal truffaut church-key freegan pop-up gentrify narwhal. Kombucha viral vexillologist green juice. Slow-carb hoodie mumblecore tumeric tattooed meditation, lo-fi fap cred affogato forage whatever austin. Shabby chic direct trade migas, brunch gochujang sriracha chambray fanny pack 8-bit mustache letterpress.
-                
-                <a href="/blog/hipster-ipsum/">...Read More</a>
-                
+    <h2 class="content" itemprop="description">
+        Occupy mlkshk kale chips woke, listicle locavore next level fingerstache glossier aesthetic man braid before they sold out kitsch prism. Cred copper mug freegan, flannel YOLO single-origin coffee skateboard artisan four loko church-key man bun. Synth literally gastropub, kombucha chillwave helvetica offal truffaut church-key freegan pop-up gentrify narwhal. Kombucha viral vexillologist green juice. Slow-carb hoodie mumblecore tumeric tattooed meditation, lo-fi fap cred affogato forage whatever austin. Shabby chic direct trade migas, brunch gochujang sriracha chambray fanny pack 8-bit mustache letterpress.
+    </h2>
+</div>
+<div class="button">
+    <a href="/blog/2017/11/13/hipster-ipsum/" itemprop="url">Read More…</a>
+</div>  <div class="column is-full-desktop" itemscope itemtype="http://schema.org/CreativeWork">
+    <h1 class="blog-timestamp">
+        
+    </h1>
+    <h1 class="title">
+        <a href="/blog/2017/11/06/startup-ipsum/" itemprop="headline">Startup Ipsum</a>
+    </h1>
+    
+    <h2 class="content" itemprop="description">
+        SpaceTeam affordances quantitative vs. qualitative SpaceTeam physical computing earned media thinker-maker-doer pair programming. Bootstrapping pitch deck physical computing driven cortado human-centered design innovate human-centered design driven. Grok pitch deck fund pitch deck sticky note affordances minimum viable product integrate paradigm viral iterate. Driven fund thought leader personas workflow SpaceTeam viral pair programming physical computing intuitive 360 campaign latte bootstrapping minimum viable product. Bootstrapping physical computing responsive pitch deck SpaceTeam parallax long shadow pitch deck bootstrapping ideate.
+    </h2>
+</div>
+<div class="button">
+    <a href="/blog/2017/11/06/startup-ipsum/" itemprop="url">Read More…</a>
+</div>  <div class="column is-full-desktop" itemscope itemtype="http://schema.org/CreativeWork">
+    <h1 class="blog-timestamp">
+        
+    </h1>
+    <h1 class="title">
+        <a href="/blog/2017/11/01/coffee-ipsum/" itemprop="headline">Coffee Ipsum</a>
+    </h1>
+    
+    <h2 class="content" itemprop="description">
+        Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong. Americano caffeine white, con panna saucer sit, con panna eu, carajillo aftertaste kopi-luwak, body aftertaste cup single origin café au lait saucer. Macchiato java sweet arabica, turkish cup, eu flavour mug extraction white cortado saucer est white brewed instant, rich, barista breve cappuccino barista organic.
+    </h2>
+</div>
+<div class="button">
+    <a href="/blog/2017/11/01/coffee-ipsum/" itemprop="url">Read More…</a>
+</div>  <div class="column is-full-desktop" itemscope itemtype="http://schema.org/CreativeWork">
+    <h1 class="blog-timestamp">
+        
+    </h1>
+    <h1 class="title">
+        <a href="/blog/2015/10/10/migrate-from-jekyll/" itemprop="headline">Migrate from Jekyll</a>
+    </h1>
+    
+    <h2 class="content" itemprop="description">
+        Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &lt;root&gt;/ ▾ images/ logo.png  should become
+▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.
+    </h2>
+</div>
+<div class="button">
+    <a href="/blog/2015/10/10/migrate-from-jekyll/" itemprop="url">Read More…</a>
+</div>  <div class="column is-full-desktop" itemscope itemtype="http://schema.org/CreativeWork">
+    <h1 class="blog-timestamp">
+        
+    </h1>
+    <h1 class="title">
+        <a href="/blog/2015/10/02/linked-post/" itemprop="headline">Linked post</a>
+    </h1>
+    
+    <h2 class="content" itemprop="description">
+        I&rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
+menu = &quot;main&quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.
+    </h2>
+</div>
+<div class="button">
+    <a href="/blog/2015/10/02/linked-post/" itemprop="url">Read More…</a>
+</div>  <div class="column is-full-desktop" itemscope itemtype="http://schema.org/CreativeWork">
+    <h1 class="blog-timestamp">
+        
+    </h1>
+    <h1 class="title">
+        <a href="/blog/2015/09/17/go-is-for-lovers/" itemprop="headline">Go is for lovers</a>
+    </h1>
+    
+    <h2 class="content" itemprop="description">
+        Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates.
+    </h2>
+</div>
+<div class="button">
+    <a href="/blog/2015/09/17/go-is-for-lovers/" itemprop="url">Read More…</a>
+</div>  <div class="column is-full-desktop" itemscope itemtype="http://schema.org/CreativeWork">
+    <h1 class="blog-timestamp">
+        
+    </h1>
+    <h1 class="title">
+        <a href="/blog/2015/08/03/hugo-is-for-lovers/" itemprop="headline">Hugo is for lovers</a>
+    </h1>
+    
+    <h2 class="content" itemprop="description">
+        Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:
+    </h2>
+</div>
+<div class="button">
+    <a href="/blog/2015/08/03/hugo-is-for-lovers/" itemprop="url">Read More…</a>
+</div>  <div class="column is-full-desktop" itemscope itemtype="http://schema.org/CreativeWork">
+    <h1 class="blog-timestamp">
+        
+    </h1>
+    <h1 class="title">
+        <a href="/blog/2015/06/24/creating-a-new-theme/" itemprop="headline">Creating a new theme</a>
+    </h1>
+    
+    <h2 class="content" itemprop="description">
+        Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template.
+    </h2>
+</div>
+<div class="button">
+    <a href="/blog/2015/06/24/creating-a-new-theme/" itemprop="url">Read More…</a>
+</div> 
                 </div>
-        </div>
+                <br>
+                <div class="container">
+                    <div class="tabs">
+    <p class="control">
         
-    
-
-    <h2 class="title is-2 top-pad">All Posts</h2>
-        <ul>
+    </p>
+    <p class="control">
+        <a class="button">
+           Page 1 of 1
+        </a>
+    </p>
+    <p class="control">
         
-            
-                <li class="post-item">
-    <span><a href="/blog/coffee-ipsum/">Coffee Ipsum</a></span> - <span>Nov 1, 2017</span>
-</li>
-            
-        
-            
-                <li class="post-item">
-    <span><a href="/blog/startup-ipsum/">Startup Ipsum</a></span> - <span>Nov 6, 2017</span>
-</li>
-            
-        
-            
-                <li class="post-item">
-    <span><a href="/blog/hipster-ipsum/">Hipster Ipsum</a></span> - <span>Nov 13, 2017</span>
-</li>
-            
-        
-        </ul>
-
+    </p>
+</div> 
+                </div>
+            </div>
+        </section>
     </div>
 
-<div class="container has-text-centered top-pad">
-<hr>
-<a href="/blog/#top"><i class="fa fa-arrow-up"></i></a>
-<hr>
 </div>
+</main>
+    <footer> 
+   
+</footer>
 
-<div class="section" id="footer">
-    <div class="container has-text-centered">
-        
-        <span class="footer-text"><a href="https://github.com/hivickylai/hugo-theme-introduction" target="_blank" rel="noopener">Introduction</a> theme for <a href="http://gohugo.io/" target="_blank" rel="noopener">Hugo</a>. Made with <i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i>. <a href="https://vickylai.io" target="_blank" rel="noopener">Vicky Lai</a> 2018</span>
-        
-    </div>
-</div>
-
-</div>
-</div>
-
-
-<script>
-$('a[href^="\/blog\/#"]').click(function(e) {
-    e.preventDefault();
-    var target = this.hash;
-    $('html, body').animate({
-    scrollTop: $(target).offset().top
-    }, 500);
-    return false;
-})
-</script>
-
+    <script async type="text/javascript" src="/js/bulma.js"></script>
+    <script async type="text/javascript"  src="/js/clipboard.min.js"></script>
+    <script async type="text/javascript"  src="/js/clip.js"></script>
 </body>
+
+</html>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Introduction</title>
+    <title>Tags on Universal</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Introduction</description>
+    <description>Recent content in Tags on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</copyright>
     <lastBuildDate>Mon, 06 Nov 2017 12:04:06 -0500</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -30,6 +31,33 @@
     </item>
     
     <item>
+      <title>Go</title>
+      <link>/tags/go/</link>
+      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
+      
+      <guid>/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>/tags/golang/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>/tags/hugo/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Images</title>
       <link>/tags/images/</link>
       <pubDate>Wed, 01 Nov 2017 12:04:16 -0500</pubDate>
@@ -44,6 +72,24 @@
       <pubDate>Mon, 13 Nov 2017 11:58:39 -0500</pubDate>
       
       <guid>/tags/ipsum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>/tags/programming/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theme</title>
+      <link>/tags/theme/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>/tags/theme/</guid>
       <description></description>
     </item>
     
