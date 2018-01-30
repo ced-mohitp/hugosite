@@ -1,8 +1,10 @@
----
-title: "Contact"
-date: 2017-03-09T13:23:28+08:00
----
++++
+title = "Contact"
+id = "contact"
++++
 
-In the Contact section of Introduction, you may optionally display the current time in your preferred timezone.
+# We are here to help you
 
-This lets visitors know what sort of response time to expect when they contact you. The timezone is easily set in the config file.
+Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
+
+Please feel free to contact us, our customer service center is working for you 24/7.
